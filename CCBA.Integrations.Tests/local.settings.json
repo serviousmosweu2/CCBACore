@@ -1,0 +1,12 @@
+﻿{
+  "IsEncrypted": false,
+  "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+  "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+  "APPINSIGHTS_INSTRUMENTATIONKEY": "",
+  "AppConfigurationConnection": "https://csazn-int-d-cfg-01.azconfig.io/",
+  "KeyVault": "https://csazn-int-d-kvt-01.vault.azure.net/",
+
+  "AISDataSource": "csaznintdsql01.database.windows.net",
+  "ManagedIdentityId": "b0f9d213-9b8a-431b-88d9-6d8ba60ac15b",
+  "AISInitialCatalog": "CSAZN-INT-D-DSQ-01"
+}
