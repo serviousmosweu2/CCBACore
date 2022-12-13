@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>Extencins to enable Dependency injection on DMF</Description>
+		<Copyright>@2021</Copyright>
+		<PackageProjectUrl>https://CCBA-BI@dev.azure.com/CCBA-BI/Azure Integration Services/_git/CCBA.Core</PackageProjectUrl>
+		<RepositoryUrl>https://CCBA-BI@dev.azure.com/CCBA-BI/Azure Integration Services/_git/CCBA.Core</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<NeutralLanguage>en-ZA</NeutralLanguage>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Storage.Files.Shares" Version="12.7.0" />
+		<PackageReference Include="EPPlus" Version="5.7.2" />
+		<PackageReference Include="ExcelDataReader" Version="3.6.0" />
+		<PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+		<PackageReference Include="Microsoft.Azure.Cosmos.Table" Version="1.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.17" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.17" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="3.1.17" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.17" />
+		<PackageReference Include="Microsoft.Identity.Client" Version="4.35.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Azure.Storage.Blobs" Version="12.9.1" />
+	</ItemGroup>
+
+</Project>
