@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[COUNTRY] (
+    [ID]   INT          IDENTITY (1, 1) NOT NULL,
+    [NAME] VARCHAR (50) NOT NULL,
+    CONSTRAINT [Country_pk] PRIMARY KEY NONCLUSTERED ([ID] ASC)
+);
+
